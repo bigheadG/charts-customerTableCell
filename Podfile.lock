@@ -1,0 +1,34 @@
+PODS:
+  - Charts (3.1.1):
+    - Charts/Core (= 3.1.1)
+  - Charts/Core (3.1.1)
+  - SCLAlertView (0.8)
+  - TKRadarChart (1.4.2)
+
+DEPENDENCIES:
+  - Charts (~> 3.0)
+  - SCLAlertView (from `https://github.com/vikmeup/SCLAlertView-Swift.git`)
+  - TKRadarChart
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Charts
+    - TKRadarChart
+
+EXTERNAL SOURCES:
+  SCLAlertView:
+    :git: https://github.com/vikmeup/SCLAlertView-Swift.git
+
+CHECKOUT OPTIONS:
+  SCLAlertView:
+    :commit: de579dc3d0b1217074796dcb5015bef01aaf8a1b
+    :git: https://github.com/vikmeup/SCLAlertView-Swift.git
+
+SPEC CHECKSUMS:
+  Charts: 90a4d61da0f6e06684c591e3bcab11940fe61736
+  SCLAlertView: 6a77bb2edfc65e04dbe57725546cb4107a506b85
+  TKRadarChart: a9242cd993ed1a0a42b6e470805619f897f41c3c
+
+PODFILE CHECKSUM: 279161837e2e8d7c04beb2c6ede3344aed6b60e8
+
+COCOAPODS: 1.5.0
